@@ -1,12 +1,12 @@
 //todo bsz
-const apiAddress = "http://arcane-sea-76966.herokuapp.com";
+const apiAddress = "";
     // "http://localhost:8080";
 
 export const api = {
     login: {
-        google: apiAddress + "/login/google"
+        google: "/login/google"
     },
-    logout: apiAddress + "/logout",
-    user: apiAddress + "/profile"
+    logout: "/logout",
+    user: "/profile"
 };
 
