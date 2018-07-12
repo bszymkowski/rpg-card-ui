@@ -1,7 +1,12 @@
+//todo bsz
+const apiAddress = "";
+    // "http://localhost:8080";
+
 export const api = {
     login: {
-        google: "/api/login/google"
+        google: apiAddress + "/login/google"
     },
-    logout: "api/logout",
-    user: "/api/profile"
+    logout: apiAddress + "/logout",
+    user: apiAddress + "/profile"
 };
+
