@@ -58,7 +58,7 @@
   },
   "scripts": {
     "start": "node server/index.js",
-    "xstart": "node scripts/start.js",
+    "dev": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
