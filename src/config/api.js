@@ -7,6 +7,6 @@ export const api = {
         google: "/login/google"
     },
     logout: "/logout",
-    user: "/profile"
+    user: "/user"
 };
 
